@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112A435424A9F55800B37CEA /* VisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112A435324A9F55800B37CEA /* VisionViewController.m */; };
+		112A435724A9F5B000B37CEA /* NaturalLanguageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112A435624A9F5B000B37CEA /* NaturalLanguageController.m */; };
+		112A435A24A9F5BB00B37CEA /* SpeechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112A435924A9F5BB00B37CEA /* SpeechViewController.m */; };
+		112A435D24A9F5C500B37CEA /* SoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112A435C24A9F5C500B37CEA /* SoundViewController.m */; };
 		1138A60124A8A9C700022280 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A60024A8A9C700022280 /* AppDelegate.m */; };
-		1138A60424A8A9C700022280 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A60324A8A9C700022280 /* SceneDelegate.m */; };
-		1138A60724A8A9C700022280 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A60624A8A9C700022280 /* ViewController.m */; };
 		1138A60A24A8A9C700022280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1138A60824A8A9C700022280 /* Main.storyboard */; };
 		1138A60C24A8A9C800022280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1138A60B24A8A9C800022280 /* Assets.xcassets */; };
 		1138A60F24A8A9C800022280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1138A60D24A8A9C800022280 /* LaunchScreen.storyboard */; };
@@ -36,13 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112A435224A9F55800B37CEA /* VisionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisionViewController.h; sourceTree = "<group>"; };
+		112A435324A9F55800B37CEA /* VisionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisionViewController.m; sourceTree = "<group>"; };
+		112A435524A9F5B000B37CEA /* NaturalLanguageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaturalLanguageController.h; sourceTree = "<group>"; };
+		112A435624A9F5B000B37CEA /* NaturalLanguageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaturalLanguageController.m; sourceTree = "<group>"; };
+		112A435824A9F5BB00B37CEA /* SpeechViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeechViewController.h; sourceTree = "<group>"; };
+		112A435924A9F5BB00B37CEA /* SpeechViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechViewController.m; sourceTree = "<group>"; };
+		112A435B24A9F5C500B37CEA /* SoundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundViewController.h; sourceTree = "<group>"; };
+		112A435C24A9F5C500B37CEA /* SoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundViewController.m; sourceTree = "<group>"; };
 		1138A5FC24A8A9C700022280 /* MachineLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachineLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1138A5FF24A8A9C700022280 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1138A60024A8A9C700022280 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1138A60224A8A9C700022280 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		1138A60324A8A9C700022280 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		1138A60524A8A9C700022280 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1138A60624A8A9C700022280 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1138A60924A8A9C700022280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1138A60B24A8A9C800022280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1138A60E24A8A9C800022280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,10 +112,14 @@
 			children = (
 				1138A5FF24A8A9C700022280 /* AppDelegate.h */,
 				1138A60024A8A9C700022280 /* AppDelegate.m */,
-				1138A60224A8A9C700022280 /* SceneDelegate.h */,
-				1138A60324A8A9C700022280 /* SceneDelegate.m */,
-				1138A60524A8A9C700022280 /* ViewController.h */,
-				1138A60624A8A9C700022280 /* ViewController.m */,
+				112A435224A9F55800B37CEA /* VisionViewController.h */,
+				112A435324A9F55800B37CEA /* VisionViewController.m */,
+				112A435524A9F5B000B37CEA /* NaturalLanguageController.h */,
+				112A435624A9F5B000B37CEA /* NaturalLanguageController.m */,
+				112A435824A9F5BB00B37CEA /* SpeechViewController.h */,
+				112A435924A9F5BB00B37CEA /* SpeechViewController.m */,
+				112A435B24A9F5C500B37CEA /* SoundViewController.h */,
+				112A435C24A9F5C500B37CEA /* SoundViewController.m */,
 				1138A60824A8A9C700022280 /* Main.storyboard */,
 				1138A60B24A8A9C800022280 /* Assets.xcassets */,
 				1138A60D24A8A9C800022280 /* LaunchScreen.storyboard */,
@@ -267,10 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1138A60724A8A9C700022280 /* ViewController.m in Sources */,
+				112A435A24A9F5BB00B37CEA /* SpeechViewController.m in Sources */,
+				112A435424A9F55800B37CEA /* VisionViewController.m in Sources */,
+				112A435D24A9F5C500B37CEA /* SoundViewController.m in Sources */,
+				112A435724A9F5B000B37CEA /* NaturalLanguageController.m in Sources */,
 				1138A60124A8A9C700022280 /* AppDelegate.m in Sources */,
 				1138A61224A8A9C800022280 /* main.m in Sources */,
-				1138A60424A8A9C700022280 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
