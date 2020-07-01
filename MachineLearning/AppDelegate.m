@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "CoreMLController.h"
 #import "VisionViewController.h"
-
+#import "NaturalLanguageController.h"
+#import "SpeechViewController.h"
+#import "SoundViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +24,7 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    VisionViewController *vc = [VisionViewController new];
+    CoreMLController *vc = [CoreMLController new];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     

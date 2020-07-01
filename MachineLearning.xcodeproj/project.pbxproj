@@ -11,6 +11,10 @@
 		112A435724A9F5B000B37CEA /* NaturalLanguageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112A435624A9F5B000B37CEA /* NaturalLanguageController.m */; };
 		112A435A24A9F5BB00B37CEA /* SpeechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112A435924A9F5BB00B37CEA /* SpeechViewController.m */; };
 		112A435D24A9F5C500B37CEA /* SoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112A435C24A9F5C500B37CEA /* SoundViewController.m */; };
+		1131007424AB0F7700AD9E1B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1131007324AB0F7700AD9E1B /* README.md */; };
+		1131007824AB23FB00AD9E1B /* MyImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1131007724AB23FB00AD9E1B /* MyImageClassifier.mlmodel */; };
+		1131007B24AB30A200AD9E1B /* CoreMLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1131007A24AB30A200AD9E1B /* CoreMLController.m */; };
+		1131008124AB369A00AD9E1B /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1131008024AB369A00AD9E1B /* images.jpg */; };
 		1138A60124A8A9C700022280 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A60024A8A9C700022280 /* AppDelegate.m */; };
 		1138A60A24A8A9C700022280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1138A60824A8A9C700022280 /* Main.storyboard */; };
 		1138A60C24A8A9C800022280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1138A60B24A8A9C800022280 /* Assets.xcassets */; };
@@ -46,6 +50,11 @@
 		112A435924A9F5BB00B37CEA /* SpeechViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechViewController.m; sourceTree = "<group>"; };
 		112A435B24A9F5C500B37CEA /* SoundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundViewController.h; sourceTree = "<group>"; };
 		112A435C24A9F5C500B37CEA /* SoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundViewController.m; sourceTree = "<group>"; };
+		1131007324AB0F7700AD9E1B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		1131007724AB23FB00AD9E1B /* MyImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyImageClassifier.mlmodel; sourceTree = "<group>"; };
+		1131007924AB30A200AD9E1B /* CoreMLController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreMLController.h; sourceTree = "<group>"; };
+		1131007A24AB30A200AD9E1B /* CoreMLController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMLController.m; sourceTree = "<group>"; };
+		1131008024AB369A00AD9E1B /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 		1138A5FC24A8A9C700022280 /* MachineLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachineLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1138A5FF24A8A9C700022280 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1138A60024A8A9C700022280 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,8 +119,11 @@
 		1138A5FE24A8A9C700022280 /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
+				1131007324AB0F7700AD9E1B /* README.md */,
 				1138A5FF24A8A9C700022280 /* AppDelegate.h */,
 				1138A60024A8A9C700022280 /* AppDelegate.m */,
+				1131007924AB30A200AD9E1B /* CoreMLController.h */,
+				1131007A24AB30A200AD9E1B /* CoreMLController.m */,
 				112A435224A9F55800B37CEA /* VisionViewController.h */,
 				112A435324A9F55800B37CEA /* VisionViewController.m */,
 				112A435524A9F5B000B37CEA /* NaturalLanguageController.h */,
@@ -120,6 +132,8 @@
 				112A435924A9F5BB00B37CEA /* SpeechViewController.m */,
 				112A435B24A9F5C500B37CEA /* SoundViewController.h */,
 				112A435C24A9F5C500B37CEA /* SoundViewController.m */,
+				1131007724AB23FB00AD9E1B /* MyImageClassifier.mlmodel */,
+				1131008024AB369A00AD9E1B /* images.jpg */,
 				1138A60824A8A9C700022280 /* Main.storyboard */,
 				1138A60B24A8A9C800022280 /* Assets.xcassets */,
 				1138A60D24A8A9C800022280 /* LaunchScreen.storyboard */,
@@ -252,6 +266,8 @@
 			files = (
 				1138A60F24A8A9C800022280 /* LaunchScreen.storyboard in Resources */,
 				1138A60C24A8A9C800022280 /* Assets.xcassets in Resources */,
+				1131008124AB369A00AD9E1B /* images.jpg in Resources */,
+				1131007424AB0F7700AD9E1B /* README.md in Resources */,
 				1138A60A24A8A9C700022280 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				112A435A24A9F5BB00B37CEA /* SpeechViewController.m in Sources */,
+				1131007824AB23FB00AD9E1B /* MyImageClassifier.mlmodel in Sources */,
 				112A435424A9F55800B37CEA /* VisionViewController.m in Sources */,
+				1131007B24AB30A200AD9E1B /* CoreMLController.m in Sources */,
 				112A435D24A9F5C500B37CEA /* SoundViewController.m in Sources */,
 				112A435724A9F5B000B37CEA /* NaturalLanguageController.m in Sources */,
 				1138A60124A8A9C700022280 /* AppDelegate.m in Sources */,

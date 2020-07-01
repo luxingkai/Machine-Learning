@@ -7,6 +7,8 @@
 //
 
 #import "NaturalLanguageController.h"
+#import <NaturalLanguage/NaturalLanguage.h>
+#import <CoreML/CoreML.h>
 
 @interface NaturalLanguageController ()
 
@@ -17,6 +19,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+#pragma mark -- Tokenization
+    
+    
+#pragma mark -- Language Identification
+    
+    
+#pragma mark -- Linguistic Tags
+    
+    
+#pragma mark -- Text Embedding
+    
+    
+#pragma mark -- Natural Language Models
     
     
     

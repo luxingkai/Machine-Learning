@@ -7,6 +7,8 @@
 //
 
 #import "SpeechViewController.h"
+#import <Speech/Speech.h>
+#import <CoreML/CoreML.h>
 
 @interface SpeechViewController ()
 
@@ -17,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    
+    
 }
 
 /*

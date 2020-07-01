@@ -7,6 +7,8 @@
 //
 
 #import "SoundViewController.h"
+#import <SoundAnalysis/SoundAnalysis.h>
+#import <CoreML/CoreML.h>
 
 @interface SoundViewController ()
 
@@ -17,6 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+#pragma mark -- Audio Analyzers
+    
+#pragma mark -- Configuration and Classification
+    
+#pragma mark -- Request Management
+    
+#pragma mark -- Errors
+    
+    
 }
 
 /*
